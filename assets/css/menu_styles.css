@@ -1,7 +1,55 @@
-#text-left{
+.upper-section{
+    margin-top: 40px;
+}
 
+#text-left{
+    font-family: PassionSansPDag-Regular;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 #text-right{
-    
+    font-family: PassionSansPDag-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.visuals{
+    width: 90%;
+}
+
+.checking{
+    background-color: white;
+    position: relative;
+}
+
+#heading-part-01{
+    font-family: PassionSansPDag-Regular;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+#heading-part-02{
+    font-family: PassionSansPDag-Regular;
+    font-size: 70px;
+    margin-left: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#heading-section-01{
+    font-family: PassionSansPDag-Regular;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#title-section{
+    position: absolute;
+    width: 95%;
+    bottom: 0;
+}
+
+#title-devider hr{
+    margin-top: -10px;
 }
