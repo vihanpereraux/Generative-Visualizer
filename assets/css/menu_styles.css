@@ -16,6 +16,7 @@ body{
     width: 98%;
 }
 
+/* Headers */
 #text-left{
     font-family: PassionSansPDag-Regular;
     font-size: 15px;
@@ -30,13 +31,9 @@ body{
     margin-right: 50px;
 }
 
-.upper-section{
-    
-}
-
+/* Main image */
 .visuals{
     width: 90%;
-    /* margin-left: 20px; */
 }
 
 .checking{
@@ -44,6 +41,7 @@ body{
     position: relative;
 }
 
+/* Main text headings */
 #heading-part-01{
     font-family: PassionSansPDag-Regular;
     font-size: 70px;
@@ -60,6 +58,7 @@ body{
     margin-top: -5px;
 }
 
+/* Clickable texts section */
 #menu-title{
     font-family: PassionSansPDag-Regular;
     font-size: 18px;
@@ -97,6 +96,7 @@ body{
     background-color: black;
 }
 
+/* Customized cursor */
 .inner-cursor{
     position: fixed;
     left: 10px;
