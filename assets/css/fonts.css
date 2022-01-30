@@ -1,5 +1,23 @@
-@font-face
-{
+@font-face{
     font-family: 'PassionSansPDag-Regular';
     src: url('fonts/PassionSansPDag-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'electroharmonix';
+    src: url('fonts/electroharmonix.ttf');
+}
+
+@font-face{
+    font-family: 'Jaycons';
+    src: url('fonts/Jaycons.ttf');
+}
+
+@font-face{
+    font-family: 'LaOriental';
+    src: url('fonts/LaOriental.otf');
+}
+
+body{
+    font-family: PassionSansPDag-Regular;
 }

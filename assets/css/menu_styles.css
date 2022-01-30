@@ -18,13 +18,11 @@ body{
 
 /* Headers */
 #text-left{
-    font-family: PassionSansPDag-Regular;
     font-size: 15px;
     font-weight: 400;
 }
 
 #text-right{
-    font-family: PassionSansPDag-Regular;
     font-size: 15px;
     font-weight: 400;
     text-align: right;
