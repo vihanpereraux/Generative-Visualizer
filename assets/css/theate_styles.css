@@ -1,3 +1,7 @@
+body{
+    cursor: none;
+}
+
 /* Wrapper for all divs */
 .wrapper{
     height: 100vh;
@@ -6,7 +10,7 @@
     overflow-y: hidden;
 }
 
-/* All wordings and movies */
+/* All wordings and movies wrapped*/
 .theatre-content{
     position: absolute;
     width: 100%;
@@ -25,13 +29,37 @@
     height: 95%;
 }
 
+/* Row 01 wording styles */
+.first-row-wordings{
+    position: relative;
+}
+
+#screen-01-heading{
+    font-size: 6.7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 0px;
+}
+
+#screen-01-description{
+    font-size: 2.1vh;
+    line-height: 1.7;
+    margin-top: 30px;
+    -webkit-text-stroke: 0.2px black;
+    opacity: 1;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Row 02 wording styles */
 .second-row-wordings{
     position: relative;
 }
 
 #screen-02-heading{
-    font-size: 6.7vh;
-    text-transform: uppercase;
+    font-size: 4vh;
     letter-spacing: 2px;
     padding-top: 25px;
 }
@@ -41,10 +69,11 @@
     line-height: 1.7;
     margin-top: 30px;
     -webkit-text-stroke: 0.2px black;
-    opacity: 0.8;
+    opacity: 1;
     width: 95%;
 }
 
+/* Row 02 footer styles */
 .footer{
     position: absolute;
     left: 0;
@@ -52,20 +81,17 @@
     bottom: 0;
     padding-left: 15px;
     padding-right: 5px;
-    /* background-color: green; */
 }
 
-.icon{
-    font-size: 25px;
-    text-align: center;
-    margin-top: -5px;
-}
-
-#japanese-txt{
-    /* -webkit-text-stroke: 0.5px black; */
+.japanese-txt{
     font-size: 3vh;
     font-family: electroharmonix;
     text-transform: uppercase;
+    color: #FF6600;
+}
+
+.japanese-txt-one{
+    color: black;
 }
 
 #english-txt{
@@ -74,4 +100,41 @@
     width: 90%;
     color: #4D4D4D;
     -webkit-text-stroke: 0.2px #4D4D4D;
+}
+
+
+
+/* Customized cursor */
+.inner-cursor{
+    position: fixed;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: width 0.5s, height 0.5s;
+    z-index: 5;
+}
+
+.inner-cursor.grow{
+    width: 25px;
+    height: 25px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.outer-cursor{
+    position: fixed;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 0.1s;
+    z-index: 5;
 }

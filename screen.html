@@ -17,22 +17,38 @@
 
 </head>
 <body>
+
+    <div class="inner-cursor"></div>
+    <div class="outer-cursor"></div>
+
     <div class="container-fluid wrapper">
-        
         <div class="theatre-content">
+
             <!-- First row -->
             <div class="row">
+
                 <!-- Movie screen 01 -->
                 <div class="col-lg-6">
-                    <video id="screen">
-                        <source src="assets/videos/mov_bbb.mp4" type="video/mp4">
+                    <video id="screen" autoplay muted loop>
+                        <source src="assets/videos/movie 01.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
+
                 <!-- Movie screen 01 - wordings -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 first-row-wordings my-auto">
+
+                    <!-- Heading -->
+                    <h2 id="screen-01-heading">cold <span style="color: #FF6600;">✹ </span>heart</h2>
+                    <!-- Description -->
+                    <p id="screen-01-description">
+                        when an unknown printer took a galley of type and scrambled it to make a 
+                        type specimen book when an unknown printer took a galley of type and 
+                        scrambled it to make a type specimen book
+                    </p> 
 
                 </div>
+
             </div>
 
             <!-- Second row -->
@@ -40,48 +56,49 @@
 
                 <!-- Movie screen 02 - wordings -->
                 <div class="col-lg-6 second-row-wordings">
+
                     <!-- Heading -->
-                    <h2 id="screen-02-heading">cold ✹ heart</h2>
+                    <!-- <h2 id="screen-02-heading">a generative compilation 🡥</h2> -->
+                    <img class="mx-auto d-block" style="width: 40%; padding-top: 40px;" 
+                        src="assets/img/theatre/circle.png" alt="">
+
                     <!-- Description -->
                     <p id="screen-02-description">
                         when an unknown printer took a galley of type and scrambled it to make a 
                         type specimen book when an unknown printer took a galley of type and 
-                        scrambled it to make a type specimen book
+                        scrambled it to make a type specimen book 🡥
                     </p>
 
-                    <!-- Footer -->
                     <div class="footer">
                         <!-- Footer row -->
                         <div class="row">
-                            <!-- <div class="col-lg-2 my-auto">
-                                <p id="japanese-txt">buried</p>
-                            </div> -->
-                            <div class="col-lg-4 my-auto">
-                                <p id="japanese-txt">memories &nbsp :(</p>
-                            </div>
-                            <div class="col-lg-2 my-auto">
-                                <p id="japanese-txt">ep01</p>
-                            </div>
-                            <div class="col-lg-6 my-auto">
+                            <div class="col-lg-12 my-auto">
                                 <p id="english-txt">
                                     when an unknown printer took a galley of type and scrambled it to 
+                                    when an unknown printer took a galley of type and scrambled it to
                                 </p>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-                <!-- Movie screen 02 -->
                 <div class="col-lg-6">
-                    <video id="screen">
-                        <source src="assets/videos/mov_bbb.mp4" type="video/mp4">
+                    <!-- Movie screen 02 -->
+                    <video id="screen" autoplay muted loop>
+                        <source src="assets/videos/movie 02.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
 
             </div>
-        </div>
 
+        </div>
     </div>
+
+    <div class="cursor"></div>
+
+    <!-- Custom cursor animation -->
+    <script src="assets/js/cursor.js"></script>
 </body>
 </html>
