@@ -18,6 +18,16 @@
     src: url('fonts/LaOriental.otf');
 }
 
+@font-face{
+    font-family: 'NotoSansSinhala-Regular';
+    src: url('fonts/NotoSansSinhala-Regular.ttf');
+}
+
+@font-face{
+    font-family: '4u-Bindumathi';
+    src: url('fonts/4u-Bindumathi.ttf');
+}
+
 body{
     font-family: PassionSansPDag-Regular;
 }

@@ -12,8 +12,8 @@ var text = new Blotter.Text("HEART ✶", {
 
 let material = new Blotter.LiquidDistortMaterial();
 
-material.uniforms.uVolatility.value = 0.04;
-material.uniforms.uSpeed.value = 0.5;
+material.uniforms.uVolatility.value = 0.02;
+material.uniforms.uSpeed.value = 0.4;
 material.uniforms.uSeed.value = 0.5;
 
 let blotter = new Blotter(material, {
