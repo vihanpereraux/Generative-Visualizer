@@ -1,3 +1,3 @@
-# A Cold Heart 
+# Generative Visualizer // A Cold Heart 
 
-Generative memory confession of a person !
+Generative movie making web application based on user expressions and web audio API  
